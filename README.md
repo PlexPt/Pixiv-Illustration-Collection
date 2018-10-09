@@ -20,7 +20,7 @@
 ### 伺服器:
 - 本地arm服务器:作为爬虫服务器,每日五点爬取pixiv三天前的日排行数据
 - Aws lightsail:反向代理图片请求过程中添加referer请求头,绕过防盗链
-- Uovz香港:反向代理pixiv搜索api,加速访问,延迟提升500ms
+- Uovz香港:反向代理pixiv搜索api,加速访问,延迟降低500ms
 - 息壤 北京:作为主web服务器,nginx tomcat动静分离
 
 ### 架构图:
